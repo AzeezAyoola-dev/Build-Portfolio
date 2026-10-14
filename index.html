@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azeez Ayoola — UI/UX Designer Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Azeez Ayoola, a UI/UX Designer crafting sleek, modern, and human-centered digital products for mobile and web.">
+  <meta name="keywords"
+    content="Azeez Ayoola, UI/UX Designer, Product Designer, Portfolio, Shift App, Jun Bank, Jun Foods, Nigeria UI UX">
+  <meta name="author" content="Azeez Ayoola">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Azeez Ayoola — UI/UX Designer">
+  <meta property="og:description"
+    content="Sleek, intuitive digital products that solve real human needs. Explore featured projects: Shift App, Jun Bank, and Jun Foods.">
+  <meta property="og:image" content="assets/images/azeez-ayoola.jpg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background decorative light blooms -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Azeez Ayoola Home">
+        <span class="logo-name">Azeez Ayoola</span>
+        <span class="logo-role">UI/UX</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="mailto:azeezayoola945@gmail.com" class="btn btn-outline btn-sm nav-email-btn"
+          aria-label="Direct Email">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          <span>azeezayoola945@gmail.com</span>
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill" data-reveal>
+            <span class="pulse-dot"></span>
+            <span>Available for freelance & full-time roles</span>
+          </div>
+
+          <h1 class="hero-title" data-reveal>
+            Crafting sleek, intuitive digital experiences that <span class="gradient-text">empower everyday
+              people</span>.
+          </h1>
+
+          <p class="hero-description" data-reveal>
+            Hi, I'm <strong>Azeez Ayoola</strong> — a dedicated <strong>UI/UX Designer</strong> focusing on product
+            strategy, accessible interfaces, and human-centered design for emerging digital economies.
+          </p>
+
+          <div class="hero-cta-group" data-reveal>
+            <a href="#projects" class="btn btn-primary">
+              <span>View Case Studies</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </a>
+            <a href="mailto:azeezayoola945@gmail.com" class="btn btn-outline" id="heroEmailBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>Email Azeez</span>
+            </a>
+            <button class="btn btn-ghost copy-email-btn" data-email="azeezayoola945@gmail.com"
+              title="Copy email address" aria-label="Copy email address">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+              </svg>
+              <span class="copy-label">Copy</span>
+            </button>
+          </div>
+
+          <div class="hero-socials" data-reveal>
+            <span class="social-label">Connect:</span>
+            <a href="https://www.linkedin.com/in/ayoola-azeez-52b29b410?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer" class="social-chip"
+              title="Behance Portfolio">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-4.075 0-5.625-3.003-5.625-5.945 0-3.364 1.942-6.055 5.617-6.055 3.388 0 5.178 2.237 5.178 5.765 0 .506-.062 1.135-.062 1.135h-7.854c.05 1.782 1.144 3.013 3.013 3.013 1.543 0 2.433-.775 2.834-1.913h2zm-2.348-4.148c-.044-1.284-.799-2.268-2.39-2.268-1.559 0-2.33 1.011-2.457 2.268h4.847zm-13.378-7.852h-8v14h7.525c3.627 0 5.475-1.667 5.475-4.495 0-1.706-.856-3.037-2.394-3.674 1.168-.617 1.894-1.748 1.894-3.284 0-2.474-1.893-2.547-4.5-2.547zm-4.999 5.629v-3.088h4.225c1.472 0 2.074.52 2.074 1.516 0 1.037-.668 1.572-2.074 1.572h-4.225zm0 5.83v-3.565h4.43c1.666 0 2.37.587 2.37 1.746 0 1.196-.757 1.819-2.404 1.819h-4.396z" />
+              </svg>
+              <span>Behance</span>
+            </a>
+            <a href="mailto:azeezayoola945@gmail.com" class="social-chip" title="Direct Email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="m22 2-7 20-4-9-9-4Z" />
+                <path d="M22 2 11 13" />
+              </svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="avatar-card-wrapper">
+            <div class="avatar-frame">
+              <img src="assets/images/azeez-ayoola.jpg" alt="Azeez Ayoola - UI UX Designer" class="avatar-img"
+                width="460" height="460" loading="eager">
+              <div class="avatar-overlay"></div>
+            </div>
+
+            <!-- Floating mini badges -->
+            <div class="floating-badge badge-top-right">
+              <span class="badge-icon">🩺</span>
+              <div>
+                <strong>Shift App</strong>
+                <p>HealthTech UI</p>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <span class="badge-icon">💳</span>
+              <div>
+                <strong>Jun Bank</strong>
+                <p>FinTech UX</p>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <span class="badge-icon">🍲</span>
+              <div>
+                <strong>Jun Foods</strong>
+                <p>AI Food Delivery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHT STATS / VALUE STRIP -->
+    <section class="value-strip" aria-label="Designer Highlights">
+      <div class="container value-grid">
+        <div class="value-item" data-reveal>
+          <div class="value-number">03</div>
+          <div class="value-text">
+            <strong>Sleek Product Concepts</strong>
+            <span>Specialized in Nigerian user workflows</span>
+          </div>
+        </div>
+        <div class="value-item" data-reveal>
+          <div class="value-number">100%</div>
+          <div class="value-text">
+            <strong>Human-Centered Focus</strong>
+            <span>Research, wireframes & high-fi systems</span>
+          </div>
+        </div>
+        <div class="value-item" data-reveal>
+          <div class="value-number">24/7</div>
+          <div class="value-text">
+            <strong>Open for Inquiries</strong>
+            <span>Direct contact & prompt response</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Case Studies</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Sleek, modern, and problem-solving product designs crafted with purpose for everyday Nigerian users.
+          </p>
+        </div>
+
+        <div class="projects-stack">
+
+          <!-- PROJECT 1: SHIFT APP -->
+          <article class="project-card" data-reveal id="project-shift">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-index">01</span>
+                <div class="tags-group">
+                  <span class="tag tag-health">HealthTech</span>
+                  <span class="tag">Mobile & Web Platform</span>
+                  <span class="tag">Healthcare Operations</span>
+                </div>
+              </div>
+
+              <h3 class="project-title">Shift App</h3>
+              <p class="project-tagline">
+                Healthcare workforce & shift management system designed for Nigerian nurses and hospital managers.
+              </p>
+
+              <p class="project-description">
+                Shift App tackles the chaotic, manual shift scheduling common in Nigerian healthcare centers. It
+                provides nurses with an effortless mobile interface to view rosters, swap shifts smoothly, and receive
+                coverage alerts, alongside a comprehensive web manager dashboard for hospital administrators to track
+                real-time ward coverage and prevent nurse burnout.
+              </p>
+
+              <div class="feature-bullets">
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Nurse Mobile App:</strong> Clean calendar roster, 1-tap shift swaps & request
+                    off.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Manager Operations Dashboard:</strong> Ward coverage overview, schedule builder &
+                    on-call tracker.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Reliable Local Design:</strong> Optimized for quick glances between hospital
+                    rounds.</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary btn-sm">
+                  <span>View on Behance</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17l9.2-9.2M17 17V8H8" />
+                  </svg>
+                </a>
+                <a href="mailto:azeezayoola945@gmail.com?subject=Inquiry%20regarding%20Shift%20App%20Design"
+                  class="btn btn-outline btn-sm">
+                  <span>Contact About This Project</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-preview">
+              <div class="image-wrapper" role="button" tabindex="0" aria-label="Open Shift App full preview"
+                data-zoom-src="assets/images/shift-app.jpg"
+                data-zoom-title="Shift App — Nurse App & Manager Dashboard UI">
+                <img src="assets/images/shift-app.jpg"
+                  alt="Shift App UI UX Design Mockup for Nigerian Nurses and Hospital Dashboard" class="project-img"
+                  loading="lazy">
+                <div class="preview-overlay">
+                  <span class="preview-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                      <line x1="11" y1="8" x2="11" y2="14" />
+                      <line x1="8" y1="11" x2="14" y2="11" />
+                    </svg>
+                    <span>Click to Expand</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: JUN BANK -->
+          <article class="project-card project-card-reverse" data-reveal id="project-bank">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-index">02</span>
+                <div class="tags-group">
+                  <span class="tag tag-fintech">FinTech</span>
+                  <span class="tag">Digital Banking</span>
+                  <span class="tag">Mobile Product</span>
+                </div>
+              </div>
+
+              <h3 class="project-title">Jun Bank</h3>
+              <p class="project-tagline">
+                An easy, modern digital bank designed around the daily habits of an average Nigerian.
+              </p>
+
+              <p class="project-description">
+                Nigerian digital banking often suffers from confusing financial menus, delayed status confirmations, and
+                clumsy transfer pathways. Jun Bank strips away friction with a clean, high-contrast interface: fast
+                Naira transfers in 2 taps, instant virtual debit card issuance, categorized spending charts, and an
+                architecture built to function flawlessly even on unstable mobile data.
+              </p>
+
+              <div class="feature-bullets">
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Zero-Friction Money Transfers:</strong> Instant recipient search, Naira balance display
+                    & quick repeats.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Virtual Card Management:</strong> Freeze/unfreeze cards on demand with clear security
+                    controls.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Stress-Free Receipts:</strong> Beautiful transaction cards with shareable payment
+                    proofs.</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary btn-sm">
+                  <span>View on Behance</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17l9.2-9.2M17 17V8H8" />
+                  </svg>
+                </a>
+                <a href="mailto:azeezayoola945@gmail.com?subject=Inquiry%20regarding%20Jun%20Bank%20Design"
+                  class="btn btn-outline btn-sm">
+                  <span>Contact About This Project</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-preview">
+              <div class="image-wrapper" role="button" tabindex="0" aria-label="Open Jun Bank full preview"
+                data-zoom-src="assets/images/jun-bank.jpg"
+                data-zoom-title="Jun Bank — Modern Digital Banking for Nigeria">
+                <img src="assets/images/jun-bank.jpg"
+                  alt="Jun Bank UI UX Design Mockup showing Home Dashboard, Send Money and Virtual Cards"
+                  class="project-img" loading="lazy">
+                <div class="preview-overlay">
+                  <span class="preview-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                      <line x1="11" y1="8" x2="14" y2="11" />
+                    </svg>
+                    <span>Click to Expand</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: JUN FOODS -->
+          <article class="project-card" data-reveal id="project-foods">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-index">03</span>
+                <div class="tags-group">
+                  <span class="tag tag-food">AI & FoodTech</span>
+                  <span class="tag">Social Delivery</span>
+                  <span class="tag">Logistics UX</span>
+                </div>
+              </div>
+
+              <h3 class="project-title">Jun Foods</h3>
+              <p class="project-tagline">
+                AI-powered food delivery designed for everyday Nigerians to eliminate decision fatigue.
+              </p>
+
+              <p class="project-description">
+                Ordering food shouldn't take 30 minutes of indecision. Jun Foods utilizes smart AI taste profiling to
+                immediately suggest meals tailored to individual cravings (from smoky jollof and grilled suya to local
+                soups). It also introduces a social "Plan Trips & Meals" mode for friends to pool their carts and vote
+                on dishes, coupled with live GPS rider tracking on local landmark routes.
+              </p>
+
+              <div class="feature-bullets">
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>AI Taste Recommendations:</strong> Curates dishes matching user cravings and dietary
+                    likes.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Group & Trip Meal Planning:</strong> Synchronized carts and voting for friends ordering
+                    together.</span>
+                </div>
+                <div class="bullet-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span><strong>Live Order & Courier Tracking:</strong> Transparent step-by-step progress from kitchen
+                    to doorstep.</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary btn-sm">
+                  <span>View on Behance</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17l9.2-9.2M17 17V8H8" />
+                  </svg>
+                </a>
+                <a href="mailto:azeezayoola945@gmail.com?subject=Inquiry%20regarding%20Jun%20Foods%20Design"
+                  class="btn btn-outline btn-sm">
+                  <span>Contact About This Project</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-preview">
+              <div class="image-wrapper" role="button" tabindex="0" aria-label="Open Jun Foods full preview"
+                data-zoom-src="assets/images/jun-foods.jpg"
+                data-zoom-title="Jun Foods — AI-Powered Food Delivery & Social Ordering">
+                <img src="assets/images/jun-foods.jpg"
+                  alt="Jun Foods UI UX Design Mockup showing AI recommendations, group ordering and order tracking"
+                  class="project-img" loading="lazy">
+                <div class="preview-overlay">
+                  <span class="preview-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                      <line x1="11" y1="8" x2="14" y2="11" />
+                    </svg>
+                    <span>Click to Expand</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & SKILLS SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-bio" data-reveal>
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Design with empathy, structured for impact.</h2>
+            <p class="bio-lead">
+              I'm <strong>Azeez Ayoola</strong>, a passionate UI/UX Designer dedicated to shaping products that solve
+              practical pain points.
+            </p>
+            <p class="bio-text">
+              My design practice bridges user empathy and commercial viability. By deeply understanding the contextual
+              nuances of everyday users — especially across Nigeria and emerging African digital markets — I create user
+              journeys that feel effortless, respectful of users' time, and visually delightful.
+            </p>
+
+            <div class="philosophy-cards">
+              <div class="phil-card">
+                <div class="phil-num">01</div>
+                <h4>Context-Driven</h4>
+                <p>Designing for real environments, diverse digital literacy levels, and varying network constraints.
+                </p>
+              </div>
+              <div class="phil-card">
+                <div class="phil-num">02</div>
+                <h4>Frictionless</h4>
+                <p>Stripping away unnecessary visual clutter so users achieve their primary goals with minimal taps.</p>
+              </div>
+              <div class="phil-card">
+                <div class="phil-num">03</div>
+                <h4>Production-Ready</h4>
+                <p>Building scalable design systems with tidy auto-layouts, tokens, and comprehensive developer specs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-card-box" id="skills" data-reveal>
+            <div class="skills-card-inner">
+              <h3 class="skills-card-title">Core Competencies</h3>
+              <p class="skills-card-subtitle">Techniques and tooling utilized across product lifecycles:</p>
+
+              <div class="skills-category">
+                <span class="category-title">Product Design</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">UI Design</span>
+                  <span class="skill-tag">UX Architecture</span>
+                  <span class="skill-tag">Wireframing</span>
+                  <span class="skill-tag">Interactive Prototyping</span>
+                  <span class="skill-tag">Design Systems</span>
+                  <span class="skill-tag">Micro-Interactions</span>
+                </div>
+              </div>
+
+              <div class="skills-category">
+                <span class="category-title">Research & Strategy</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">User Journey Mapping</span>
+                  <span class="skill-tag">Usability Testing</span>
+                  <span class="skill-tag">Information Architecture</span>
+                  <span class="skill-tag">Heuristic Evaluation</span>
+                  <span class="skill-tag">Persona Formulation</span>
+                </div>
+              </div>
+
+              <div class="skills-category">
+                <span class="category-title">Tools of Choice</span>
+                <div class="skill-tags">
+                  <span class="skill-tag active-tool">Figma</span>
+                  <span class="skill-tag active-tool">FigJam</span>
+                  <span class="skill-tag active-tool">Adobe XD</span>
+                  <span class="skill-tag active-tool">Protopie</span>
+                  <span class="skill-tag active-tool">HTML/CSS</span>
+                </div>
+              </div>
+
+              <div class="cta-mini-box">
+                <p>Interested in working together or hiring me?</p>
+                <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-wrapper" data-reveal>
+          <div class="contact-grid">
+
+            <!-- Contact Info Column -->
+            <div class="contact-info">
+              <span class="section-tag">Let's Connect</span>
+              <h2 class="contact-title">Have a project in mind or an opening?</h2>
+              <p class="contact-desc">
+                I'm always excited to discuss new opportunities, product design contracts, or full-time roles. Send a
+                message and let's bring your vision to life.
+              </p>
+
+              <!-- Working Direct Email Card -->
+              <div class="direct-email-box">
+                <div class="email-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                </div>
+                <div class="email-text-box">
+                  <span class="box-label">Direct Email</span>
+                  <a href="mailto:azeezayoola945@gmail.com" class="direct-email-link" id="directEmailLink">
+                    azeezayoola945@gmail.com
+                  </a>
+                </div>
+                <button class="btn btn-icon copy-email-btn" data-email="azeezayoola945@gmail.com"
+                  title="Copy email address" aria-label="Copy email address">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                    <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Social Links -->
+              <div class="contact-links-list">
+                <a href="https://www.linkedin.com/in/ayoola-azeez-52b29b410?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                  target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                  <div class="icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>LinkedIn</strong>
+                    <span>Connect professionally</span>
+                  </div>
+                  <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+
+                <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer"
+                  class="contact-link-item">
+                  <div class="icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-4.075 0-5.625-3.003-5.625-5.945 0-3.364 1.942-6.055 5.617-6.055 3.388 0 5.178 2.237 5.178 5.765 0 .506-.062 1.135-.062 1.135h-7.854c.05 1.782 1.144 3.013 3.013 3.013 1.543 0 2.433-.775 2.834-1.913h2zm-2.348-4.148c-.044-1.284-.799-2.268-2.39-2.268-1.559 0-2.33 1.011-2.457 2.268h4.847zm-13.378-7.852h-8v14h7.525c3.627 0 5.475-1.667 5.475-4.495 0-1.706-.856-3.037-2.394-3.674 1.168-.617 1.894-1.748 1.894-3.284 0-2.474-1.893-2.547-4.5-2.547zm-4.999 5.629v-3.088h4.225c1.472 0 2.074.52 2.074 1.516 0 1.037-.668 1.572-2.074 1.572h-4.225zm0 5.83v-3.565h4.43c1.666 0 2.37.587 2.37 1.746 0 1.196-.757 1.819-2.404 1.819h-4.396z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>Behance</strong>
+                    <span>Explore full design case studies</span>
+                  </div>
+                  <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Contact Form Column -->
+            <div class="contact-form-side">
+              <form class="contact-form" id="contactForm" novalidate>
+                <h3 class="form-title">Send a Direct Message</h3>
+                <p class="form-subtitle">Fills your email client directly or creates an instant draft.</p>
+
+                <div class="form-group">
+                  <label for="userName">Your Name <span class="required">*</span></label>
+                  <input type="text" id="userName" name="name" placeholder="e.g. John Adeleke" required>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail">Your Email <span class="required">*</span></label>
+                  <input type="email" id="userEmail" name="email" placeholder="e.g. john@example.com" required>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="projectType">Inquiry Subject <span class="required">*</span></label>
+                  <select id="projectType" name="subject" required>
+                    <option value="" disabled selected>Select a subject...</option>
+                    <option value="New Product Design Project">New UI/UX Design Project</option>
+                    <option value="Full-time / Contract Role">Full-Time / Contract Role</option>
+                    <option value="Shift App Feedback">Shift App Discussion</option>
+                    <option value="Jun Bank Feedback">Jun Bank Discussion</option>
+                    <option value="Jun Foods Feedback">Jun Foods Discussion</option>
+                    <option value="General Question or Consultation">General Inquiries</option>
+                  </select>
+                  <span class="field-error" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage">Message <span class="required">*</span></label>
+                  <textarea id="userMessage" name="message" rows="4"
+                    placeholder="Tell me about your product idea, timeline, or scope..." required></textarea>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span>Send Message via Email</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-brand">Azeez Ayoola</span>
+        <span class="footer-dot">•</span>
+        <span>UI/UX Designer</span>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to Top ↑</a>
+        <a href="https://www.linkedin.com/in/ayoola-azeez-52b29b410?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://behance.net/ayoolaazeez" target="_blank" rel="noopener noreferrer">Behance</a>
+        <a href="mailto:azeezayoola945@gmail.com">azeezayoola945@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- IMAGE LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Project Preview Modal">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Preview">&times;</button>
+      <div class="lightbox-header">
+        <h4 id="lightboxTitle">Project Preview</h4>
+      </div>
+      <div class="lightbox-body">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
